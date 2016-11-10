@@ -30,8 +30,8 @@ Using Web Service
 |-------------|------------------------------------------------------------------------|-------------------------------------------------------------|
 | GET         | http://[hostname]/                                                     | Retrieve the list of all the urls that exists in the system |
 | POST        | http://[hostname]/ (parameters: desktop_url, mobile_url, tablet_url)   | Create a short URL                                          |
-| GET         | http://[short_url]                                                     | Redirect to target URL depending on the device              |
-| POST        | http://[short_url] (parameters: desktop_url, mobile_url, tablet_url)   | Update short URL                                            |
+| GET         | http://[short_url]/                                                    | Redirect to target URL depending on the device              |
+| POST        | http://[short_url]/ (parameters: desktop_url, mobile_url, tablet_url)  | Update short URL                                            |
 
 Run Tests
 -----
